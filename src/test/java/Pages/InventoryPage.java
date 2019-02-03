@@ -34,4 +34,10 @@ public class InventoryPage {
 
     @FindBy(xpath = "(//div[@class='btn-group o_search_options'])")
     public WebElement advancedSearchOptions;
+
+    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[6]/ul[2]/li[1]/a/span")
+    public WebElement products;
+
+    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[6]/ul[2]/li[2]/a/span)")
+    public WebElement reorderingRules;
 }
